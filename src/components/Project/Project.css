@@ -1,0 +1,16 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.project-header{
+    display: flex;
+    gap: 6rem;
+    font-size: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+}
