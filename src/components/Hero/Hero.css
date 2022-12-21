@@ -5,7 +5,6 @@
 .left-h{
     min-height: 100vh;
     padding: 2rem;
-    padding-top: 2rem;
     flex: 3;
     display: flex;
     gap: 2rem;
