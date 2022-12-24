@@ -1,0 +1,11 @@
+.Footer{
+    position: relative;
+
+}
+.Footer>hr{
+    border: 1px solid var(--lightgray);
+}
+.footer-item{
+    padding: 1rem 2rem;
+    display: flex;
+}
