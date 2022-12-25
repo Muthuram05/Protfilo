@@ -59,7 +59,7 @@ const Project = () => {
       ];
   return (
     
-    <div className='Project'>
+    <div className='Project' id='Project'>
         <div className="project-header">
             <span className='stroke-text'>Explore my</span>
             <span>Project</span>

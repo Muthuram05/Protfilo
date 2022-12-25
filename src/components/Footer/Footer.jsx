@@ -11,7 +11,7 @@ const Footer = () => {
       <hr />
       <div className="footer">
         <div className="social-link">
-          <img src={Github} alt="" srcset="" />
+          <img src={Github} alt="" srcset="" onClick="www.github.com/muthuram05"/>
           <img src={Insta} alt="" srcset="" />
           <img src={LinkedIn} alt="" srcset="" />
           </div>

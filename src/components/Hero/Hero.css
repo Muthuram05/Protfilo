@@ -93,6 +93,7 @@
     border: 2px solid var(--orange);
 }
 .right-h{
+    transition: 0.5s;
     flex: .7;
     position: relative;
     background-color: var(--orange);
@@ -140,14 +141,13 @@
     .hero-blur{
         width: 14rem;
     }
+    .left-h{
+        min-height: 80vh;}
     .ad{
         margin-top: 0;
         font-size: small;
         align-self: center;
         /* transform: scale(1.8); */
-    }
-    .ad>div{
-        width: 5.8rem;
     }
     .hero-heading{
         font-size: xx-large;
@@ -174,5 +174,12 @@
     }
     .right-h{
         position: relative;
+    }
+    .repo{
+        left: 1rem;
+        top: 0rem;
+    }
+    .color{
+        display: none;
     }
 }

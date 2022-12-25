@@ -3,17 +3,18 @@ import "./Hero.css"
 import Header from '../Header/Header'
 import Github from '../../assets/github.png'
 import {motion} from 'framer-motion'
-
+import NumberCounter from 'number-counter'
 const Hero = () => {
     const transition = {type : 'spring' , duration : 3}
+    const mobile = window.innerWidth<=768 ? true: false;
     return (
-        <div className='Hero'>
+        <div className='Hero' id='Hero'>
             <div className="blur hero-blur"></div>
             <div className="left-h">
                 <Header />
                 <div className="ad">
                     <motion.div
-                    initial={{left : '220px'}}
+                    initial={{left : mobile ? '170px': '220px'}}
                     whileInView = {{left : '8px'}}
                     transition = {{...transition,type: 'tween'}}
                     ></motion.div>
@@ -43,9 +44,11 @@ const Hero = () => {
                 </div>
                 {/* count */}
                 <div className="figures">
-                    <div><span>+140</span><span>Website</span> </div>
-                    <div><span>+950</span><span>Application</span> </div>
-                    <div><span>+1000</span><span>Ai Projects</span></div>
+                    <div><span>
+                        <NumberCounter end={14} start={0} delay='2' preFix="+"></NumberCounter>
+                        </span><span>Website</span> </div>
+                    <div><span><NumberCounter end={14} start={0} delay='3' preFix="+"></NumberCounter></span><span>Application</span> </div>
+                    <div><span><NumberCounter end={14} start={0} delay='4' preFix="+"></NumberCounter></span><span>Ai Projects</span></div>
                 </div>
                 {/* hero-button */}
                 <div className="hero-button">

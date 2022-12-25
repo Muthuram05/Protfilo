@@ -1,9 +1,10 @@
-.joinus{
+.joinus {
     display: flex;
     padding: 0 2rem;
     gap: 10rem;
 }
-.left-j{
+
+.left-j {
     flex: 1 1;
     color: #fff;
     font-size: 3rem;
@@ -11,39 +12,56 @@
     text-transform: uppercase;
     position: relative;
 }
-.left-j>hr{
+
+.left-j>hr {
     position: absolute;
     width: 10.5rem;
     border: 1px solid var(--orange);
     border-radius: 20%;
     margin: -10px 0;
 }
-.left-j>div{
+
+.left-j>div {
     display: flex;
     gap: 1rem;
 }
-.right-j{
+
+.right-j {
     flex: 1 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.email-container{
+
+.email-container {
     display: flex;
     gap: 3rem;
     background-color: gray;
     padding: 1rem 2rem;
 }
-.email-container>input{
+
+.email-container>input {
     background-color: transparent;
     border: none;
     outline: none;
     color: var(--lightgray);
 }
-::placeholder{
+
+::placeholder {
     color: var(--lightgray);
 }
-.btn-j{
+
+.btn-j {
     background-color: var(--orange);
     color: #fff;
+}
+
+@media screen and (max-width : 768px) {
+    .joinus{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .left-j{
+        font-size: xx-large;
+    }
 }
