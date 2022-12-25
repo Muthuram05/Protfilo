@@ -2,13 +2,21 @@ import React from 'react'
 import "./Hero.css"
 import Header from '../Header/Header'
 import Github from '../../assets/github.png'
+import {motion} from 'framer-motion'
+
 const Hero = () => {
+    const transition = {type : 'spring' , duration : 3}
     return (
         <div className='Hero'>
+            <div className="blur hero-blur"></div>
             <div className="left-h">
                 <Header />
                 <div className="ad">
-                    <div></div>
+                    <motion.div
+                    initial={{left : '220px'}}
+                    whileInView = {{left : '8px'}}
+                    transition = {{...transition,type: 'tween'}}
+                    ></motion.div>
                     <span>Talk is Cheap Show me the code</span>
                 </div>
                 {/* heading */}

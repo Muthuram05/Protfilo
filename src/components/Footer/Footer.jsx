@@ -7,17 +7,21 @@ import Dev from "../../assets/dev-remove.png"
 
 const Footer = () => {
   return (
-    <div className="Footer">
-        <hr />
-        <div className="footer-item">
-            <img src={Github} alt="" srcset="" />
-            <img src={Insta} alt="" srcset="" />
-            <img src={LinkedIn} alt="" srcset="" />
-        </div>
-        <div className="logo-f">
+    <div className="Footer-container">
+      <hr />
+      <div className="footer">
+        <div className="social-link">
+          <img src={Github} alt="" srcset="" />
+          <img src={Insta} alt="" srcset="" />
+          <img src={LinkedIn} alt="" srcset="" />
+          </div>
+          <div className="logo-f">
             <img src={Dev} alt="" />
-            <span>{"<MuthuRam/>"}</span>
-        </div>
+            <p>{"<MuthuRam/>"}</p>
+          </div>
+      </div>
+      <div className="blur blur-f1"></div>
+      <div className="blur blur-f2"></div>
     </div>
   )
 }
