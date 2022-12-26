@@ -6,14 +6,17 @@ import LinkedIn from "../../assets/linkedin.png"
 import Dev from "../../assets/dev-remove.png"
 
 const Footer = () => {
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
   return (
     <div className="Footer-container">
       <hr />
       <div className="footer">
         <div className="social-link">
-          <img src={Github} alt="" srcset="" onClick="www.github.com/muthuram05"/>
-          <img src={Insta} alt="" srcset="" />
-          <img src={LinkedIn} alt="" srcset="" />
+          <img src={Github} onClick={() => openInNewTab('https://github.com/muthuram05')}/>
+          <img src={Insta} onClick={() => openInNewTab('https://www.instagram.com/ram_vishwa123/')} />
+          <img src={LinkedIn}  onClick={() => openInNewTab('https://www.linkedin.com/in/muthu-raman-27339a212/')}/>
           </div>
           <div className="logo-f">
             <img src={Dev} alt="" />

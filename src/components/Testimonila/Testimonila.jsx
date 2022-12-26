@@ -5,6 +5,7 @@ import leftArrow from '../../assets/leftArrow.png'
 import rigthArrow from '../../assets/rightArrow.png'
 import { useState } from 'react'
 import {motion} from 'framer-motion'
+import Arrow from '../../assets/rightArrow.png'
 
 const Testimonila = () => {
   const transition = {type : 'spring' , duration : 3};
@@ -56,6 +57,7 @@ const Testimonila = () => {
           src={rigthArrow} alt="" />
         </div>
       </div>
+      <label id='popup'><img src={Arrow}></img></label>
     </div>
   )
 }

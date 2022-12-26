@@ -47,3 +47,26 @@
   z-index: -9;
 
 }
+#popup{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--orange);
+  z-index: 100;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+}
+#popup>img{
+  transform: rotate(-90deg);
+}
+@media screen and (max-width : 768px) {
+  #popup{
+    display: none;
+  }
+}
