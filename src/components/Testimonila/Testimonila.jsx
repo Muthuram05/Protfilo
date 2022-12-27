@@ -6,6 +6,7 @@ import rigthArrow from '../../assets/rightArrow.png'
 import { useState } from 'react'
 import {motion} from 'framer-motion'
 import Arrow from '../../assets/rightArrow.png'
+import { Link } from 'react-scroll'
 
 const Testimonila = () => {
   const transition = {type : 'spring' , duration : 3};
@@ -57,7 +58,8 @@ const Testimonila = () => {
           src={rigthArrow} alt="" />
         </div>
       </div>
-      <label id='popup'><img src={Arrow}></img></label>
+      <label id='popup'><Link to="Hero" span={true}
+              smooth={true}><img src={Arrow}></img></Link></label>
     </div>
   )
 }

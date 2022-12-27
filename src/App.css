@@ -62,7 +62,7 @@
   bottom: 2rem;
   right: 3rem;
 }
-#popup>img{
+#popup img{
   transform: rotate(-90deg);
 }
 @media screen and (max-width : 768px) {
