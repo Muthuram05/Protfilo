@@ -66,6 +66,14 @@
     width: 2rem;
     height: 2rem;
 }
+.Tools{
+    display: flex;
+    gap: 1rem;
+}
+.Tools>img{
+    width: 3rem;
+    filter: grayscale(0.5);
+}
 @media screen and (max-width : 768px) {
     .Reason{
         flex-direction: column;

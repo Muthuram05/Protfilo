@@ -5,6 +5,9 @@ import Image2 from '../../assets/image2.png'
 import Image3 from '../../assets/image3.png'
 import Image4 from '../../assets/image4.png'
 import Tick from '../../assets/tick.png'
+import Cv2 from '../../assets/opencv.png'
+import Mp from '../../assets/mediapipe.png'
+
 const Reason = () => {
   return (
     <div className="Reason" id="Reason">
@@ -37,6 +40,13 @@ const Reason = () => {
             <img src={Tick} alt=""></img>
             <span>AI-powered virtual agents are always available</span>
           </div>
+        </div>
+        <span style={{ color: 'var(--gray)' }}>
+          AI TOOLS
+        </span>
+        <div className="Tools">
+          <img src={Cv2} alt="" />
+          <img src={Mp} alt="" />
         </div>
       </div>
     </div>

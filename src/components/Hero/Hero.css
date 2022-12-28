@@ -116,12 +116,19 @@
     width: 100px;
     height: 300px;
     background-color: red;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     transition: 0.5s;
+}
+.color-item{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--orange);
 }
 .right-h>.color>#blue{
     cursor: pointer;
