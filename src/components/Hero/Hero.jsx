@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 import NumberCounter from 'number-counter'
 import Coloritem from '../../data/color-demo.js'
 const Hero = () => {
-    const colors =['#003366' , '#ff6600','#ffcc00','#63abb7']
+    const colors =['#2C74B3' , '#ff6600','#ffcc00','#63abb7']
     const setTheme =(color)=>{
         document.documentElement.style.setProperty('--orange',color)
     }

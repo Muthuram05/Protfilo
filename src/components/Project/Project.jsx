@@ -21,7 +21,7 @@ const Project = () => {
       ),
       heading: "Virtual Mouse",
       details:
-        "In this program, you are trained to improve your strength through many exercises.",
+        "It provides an infrastructure between the user and the system using only a camera",
     },
     {
       image: <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
@@ -38,7 +38,7 @@ const Project = () => {
    </svg>,
       heading: "WebAssistance",
       details:
-        "In this program, you are trained to do sequential moves in range of 20 until 30 minutes.",
+        "WebAssistance is a virtual assistant to design software application",
     },
     {
       image:<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
@@ -48,13 +48,13 @@ const Project = () => {
         c-0.006-10.686-4.35-20.372-11.358-27.384C70.396,15.56,60.703,11.213,50.004,11.21L50.004,11.21z"/></g></svg>,
       heading: "Nano-Search ",
       details:
-        "This program is suitable for you who wants to get rid of your fat and lose their weight.",
+        "A search engine is a software system designed to carry out web searches.",
     },
     {
       image: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg>,
       heading: "Shopbazzer",
       details:
-        "This programs is designed for those who exercises only for their body fitness not body building.",
+        "E-commerce is the activity of electronically buying or selling of products on online services or over the Internet.",
     },
   ];
   return (

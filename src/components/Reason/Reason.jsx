@@ -12,11 +12,18 @@ const Reason = () => {
   return (
     <div className="Reason" id="Reason">
       <div className='left-r'>
-        <img src={Image1} alt="" srcset="" />
-        <img src={Image2} alt="" srcset="" />
-        <img src={Image3} alt="" srcset="" />
-        <img src={Image4} alt="" srcset="" />
+        <div className='r-l'>
+          <img src={Image1} alt="" srcset="" />
+        </div>
+        <div className='r-r'>
+          <img src={Image2} alt="" srcset="" />
+          <div className='inner'>
+            <img src={Image3} alt="" srcset="" />
+            <img src={Image4} alt="" srcset="" />
+          </div>
+        </div>
       </div>
+      {/* Right Side */}
       <div className='right-r'>
         <span>Some Project</span>
         <div>

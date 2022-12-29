@@ -196,7 +196,7 @@ background-color: #ffcc00;
         /* transform: scale(1.8); */
     }
     .hero-heading{
-        font-size: xx-large;
+        font-size: x-large;
         align-items: center;
         justify-content: center;
     }
@@ -233,9 +233,11 @@ background-color: #ffcc00;
     }
     .right-h>.color{
         border-radius: 10px;
-        width: 300px;
+        width: 100%;
+        margin-left:0.5rem;
+        margin-right:0.5rem;
         height: 100px;
         flex-direction: row;
-        top: -8rem;
+        top: -6rem;
     }
 }
