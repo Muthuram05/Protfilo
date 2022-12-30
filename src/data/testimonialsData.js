@@ -1,6 +1,7 @@
 import image1 from "../assets/ram.jpg";
 import image2 from "../assets/k7.jpg";
 import image3 from "../assets/krish.jpg";
+import image4 from "../assets/siva.jpeg";
 
 export const testimonialsData = [
   {
@@ -12,7 +13,7 @@ export const testimonialsData = [
   },
   {
     image: image2,
-    review: 'Design is everywhere.From the dress you\' wearing to the smartphone you\'re holding, it\'s design.',
+    review: 'From the dress you\' wearing to the smartphone you\'re holding, it\'s design.',
     name: 'VIJAYA KESAVEN',
     status: 'FRONT-END DEVELOPER'
   },
@@ -21,5 +22,11 @@ export const testimonialsData = [
     review:'Design isn\'t finished until somebody is using it.',
     name: 'HARI KRISHNAN',
     status: "FRONT-END DEVELOPER"
+  },
+  {
+    image : image4,
+    review:'Solving the problem is my hobby.',
+    name: 'SIVA GANESH',
+    status: "FULLSTACK DEVELOPER"
   }
 ];

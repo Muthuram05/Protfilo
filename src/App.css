@@ -40,7 +40,7 @@
   cursor: pointer;
 }
 .blur{
-  background: rgba(253,120,43,0.69);
+  background: var(--orange);
   position: absolute;
   border-radius: 50%;
   filter: blur(150px);

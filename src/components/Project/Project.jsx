@@ -65,9 +65,9 @@ const Project = () => {
         <span>Project</span>
         <span className='stroke-text'>unique ideas</span>
       </div>
-      <div className='program-categories'>
+      <div className='program-categories' >
         {programsData.map((data) =>
-          <div className='category'>
+          <div className='category'> 
             {data.image}
             <span>{data.heading}</span>
             <span>{data.details}</span>

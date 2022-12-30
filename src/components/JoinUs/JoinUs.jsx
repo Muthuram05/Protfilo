@@ -7,10 +7,10 @@ const JoinUs = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-    
         emailjs.sendForm('service_vf1xct2', 'template_tiyf55g', form.current, 'RvlX4cKLWdp1UQopG')
           .then((result) => {
               console.log(result.text);
+              form.current.value = "";
           }, (error) => {
               console.log(error.text);
           });
