@@ -80,13 +80,11 @@
     font-weight: normal;
 }
 .hero-button>button:nth-of-type(1){
-
     color: #fff;
     background-color: var(--orange);
     width: 8rem;
 }
 .hero-button>button:nth-of-type(2){
-
     color: #fff;
     background-color: transparent;
     width: 8rem;
@@ -103,7 +101,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 3rem;
+    right: 10%;
     top: 2rem;
     color: black;
     background-color: #fff;
@@ -119,9 +117,24 @@
     z-index: 1;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     transition: 0.5s;
+}
+.color .txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+.color .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 260px;
+    width: 100%;
+    flex-direction: column;
 }
 .color-item{
     cursor: pointer;
@@ -129,38 +142,6 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--orange);
-}
-.right-h>.color>#blue{
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #63abb7; 
-}
-.right-h>.color>#darkblue{
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #003366; 
-    /* #003366 */
-}
-.right-h>.color>#orange{
-/* #ff6600 */
-cursor: pointer;
-width: 50px;
-
-height: 50px;
-border-radius: 50%;
-background-color: #ff6600; 
-}
-.right-h>.color>#yellow{
-/* #ffcc00 */
-cursor: pointer;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-background-color: #ffcc00; 
 }
 .repo{
     display: flex;
@@ -172,7 +153,7 @@ background-color: #ffcc00;
     align-items: flex-start;
     border-radius: 5px;
     position: absolute;
-    right: 4rem;
+    right: 20%;
     top: 7rem;
 }
 .repo>img{
@@ -188,12 +169,12 @@ background-color: #ffcc00;
         width: 14rem;
     }
     .left-h{
-        min-height: 80vh;}
+        min-height: 70vh;
+    }
     .ad{
         margin-top: 0;
         font-size: small;
         align-self: center;
-        /* transform: scale(1.8); */
     }
     .hero-heading{
         font-size: x-large;
@@ -220,24 +201,32 @@ background-color: #ffcc00;
     }
     .right-h{
         position: relative;
+        background-color: transparent;
+        width: 100%;
+        max-height: 150px;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
     }
-    .repo{
-        left: 1rem;
-        top: 0rem;
+    .right-h>.buyacoffee{
+        position: relative;
+        top: 0;
     }
-    .color{
-        display: none;
-    }
-    #popup{
+    .right-h>.repo{
+        position: relative;
         display: none;
     }
     .right-h>.color{
-        border-radius: 10px;
-        width: 100%;
-        margin-left:0.5rem;
-        margin-right:0.5rem;
-        height: 100px;
-        flex-direction: row;
-        top: -6rem;
+        position: relative;
+        flex-direction: column;
+        width: 80%;
+        height: 80px;
     }
+    .color>.items{
+        flex-direction: row;
+    }
+
 }
