@@ -1,8 +1,6 @@
 import React from 'react'
 import './Project.css'
 import RightArrow from '../../assets/rightArrow.png'
-import object from '../../assets/object.jpeg'
-
 
 const Project = () => {
   const programsData = [
