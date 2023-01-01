@@ -10,6 +10,7 @@ const JoinUs = () => {
         emailjs.sendForm('service_vf1xct2', 'template_tiyf55g', form.current, 'RvlX4cKLWdp1UQopG')
           .then((result) => {
               console.log(result.text);
+              e.target.user_email.value = "";
               form.current.value = "";
           }, (error) => {
               console.log(error.text);
@@ -30,7 +31,7 @@ const JoinUs = () => {
             </div>
             <div className="right-j">
                 <form ref={form} className="email-container" onSubmit={sendEmail}>
-                    <input type="email" name="user_email" placeholder='Enter Your email' />
+                    <input type="email" name="user_email" placeholder='Enter Your email' required/>
                     <button className='btn btn-j'>Contact Now</button>
                 </form>
             </div>

@@ -81,7 +81,11 @@
     width: 1.5rem;
     cursor: pointer;
 }
-
+@media screen and (max-width : 1024px) {
+    .arrows{
+        bottom: -5rem;
+    }
+}
 @media screen and (max-width : 768px) {
     .Testimonilas {
         flex-direction: column;

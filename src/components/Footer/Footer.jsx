@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="social-link">
           <img src={Github} onClick={() => openInNewTab('https://github.com/muthuram05')}/>
           <img src={Insta} onClick={() => openInNewTab('https://www.instagram.com/ram_vishwa123/')} />
-          <img src={LinkedIn}  onClick={() => openInNewTab('https://www.linkedin.com/in/muthu-raman-27339a212/')}/>
+          <img src={LinkedIn}  onClick={() => openInNewTab('https://www.linkedin.com/in/muthuram05/')}/>
           </div>
           <div className="logo-f">
             <img src={Dev} alt="" />
