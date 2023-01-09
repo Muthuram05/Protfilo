@@ -58,8 +58,7 @@ const Testimonila = () => {
             src={rigthArrow} alt="" />
         </div>
       </div>
-      <label id='popup'><Link to="Hero" span={true}
-        smooth={true}><img src={Arrow}></img></Link></label>
+      
     </div>
   )
 }
