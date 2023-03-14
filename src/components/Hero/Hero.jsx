@@ -5,6 +5,8 @@ import Github from '../../assets/github.png'
 import { motion } from 'framer-motion'
 import NumberCounter from 'number-counter'
 import Coloritem from '../../data/color-demo.js'
+import { Link } from 'react-scroll'
+
 const Hero = () => {
     const openInNewTab = url => {
         window.open(url, '_blank', 'noopener,noreferrer');
@@ -67,8 +69,11 @@ const Hero = () => {
                 </div>
                 {/* hero-button */}
                 <div className="hero-button">
-                    <button className="btn">Get Started</button>
-                    <button className="btn">Learn More</button>
+                        <Link to='Project' span={true} smooth={true} className="btn btn1"> Get Started
+                            </Link>
+                    {/* <button  > Testimonials </button> */}
+                        
+                    <button className="btn btn2" >Learn More</button>
                 </div>
             </div>
             <div className="right-h">

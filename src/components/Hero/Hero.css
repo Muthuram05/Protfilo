@@ -79,12 +79,12 @@
     gap: 2rem;
     font-weight: normal;
 }
-.hero-button>button:nth-of-type(1){
+.hero-button .btn1{
     color: #fff;
     background-color: var(--orange);
     width: 8rem;
 }
-.hero-button>button:nth-of-type(2){
+.hero-button .btn2{
     color: #fff;
     background-color: transparent;
     width: 8rem;
