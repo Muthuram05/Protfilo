@@ -13,13 +13,20 @@
     color: #fff;
     text-transform: uppercase;
     font-style: italic;
+    
 }
 .program-categories{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 .category{
-    width: 300px;
+    height: 200px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     background-color: gray;

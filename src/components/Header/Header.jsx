@@ -1,10 +1,15 @@
 import React from 'react'
 import "./Header.css"
 import Bar from '../../assets/bars.png'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { Link } from 'react-scroll'
 
 const Header = () => {
+  // var mobile;
+  // useEffect(() => {
+  //   mobile = window.innerWidth <= 768 ? true : false;
+
+  // },[mobile]);
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false)
   return (

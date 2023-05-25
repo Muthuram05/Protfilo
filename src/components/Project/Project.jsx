@@ -77,6 +77,15 @@ const Project = () => {
             </div>
           </div>
         )}
+        {/* react 
+node
+flutter
+django
+flask
+php
+static project 
+python 
+Ai */}
       </div>
     </div>
   )
